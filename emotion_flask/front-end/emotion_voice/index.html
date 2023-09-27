@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음성 녹음 및 분석</title>
+</head>
+<body>
+    <h1>음성 녹음 및 분석</h1>
+    
+    <!-- 녹음 버튼 -->
+    <button id="startRecord">녹음 시작</button>
+    <button id="stopRecord" disabled>녹음 중지</button>
+    
+    <!-- 녹음된 음성 플레이어 -->
+    <audio id="recordedAudio" controls style="display: none;"></audio>
+    
+    <!-- 분석 시작 버튼 -->
+    <button id="analyze" disabled>분석 시작</button>
+
+    <!-- 결과를 출력할 곳 -->
+    <div id="result"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
